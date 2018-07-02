@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import celticShield from './celticShield.png';
 import './App.css';
 
 class App extends Component {
@@ -6,6 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <img src={celticShield} alt="AO" />
           <h1>Anne O'Malley</h1>
         </header>
       </div>

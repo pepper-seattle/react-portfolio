@@ -4,12 +4,21 @@
 
 .App-header {
   background-color: #222;
-  height: 25px;
-  padding: 20px;
-  color: white;
+  color: #e9e9e9;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
 }
 
 .App-header h1 {
-  text-align: left;
+  text-align: right;
   margin: 0;
+}
+
+.App-header img {
+  text-align: left;
+  height: 50px;
 }
